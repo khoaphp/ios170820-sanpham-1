@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="http://localhost:3000" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new San Pham</title>
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/add.js"></script>
+    <link rel="stylesheet" href="./css/layout.css" />
+</head>
+<body>
+    <h2>Add new san pham</h2>
+    <form action="./add" method="POST">
+        <input type="text" name="txt_Ten" placeholder="Ten SP" />
+        <input type="text" name="txt_Gia" placeholder="Gia SP" />
+        <input type="file" name="HinhSP" id="HinhSP" />
+        <img src="./images/sp.png" id="hinh" alt="">
+        <input type="hidden" name="TenHinh" id="TenHinh" />
+        <input type="submit" value="Add" />
+    </form>
+</body>
+</html>
